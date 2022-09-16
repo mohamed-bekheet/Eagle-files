@@ -1,0 +1,567 @@
+<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="MOD_LAUNCHXL-F28379D">
+<wire x1="-64.897" y1="-29.21" x2="-64.897" y2="29.21" width="0.127" layer="51"/>
+<wire x1="-64.897" y1="29.21" x2="64.897" y2="29.21" width="0.127" layer="51"/>
+<wire x1="64.897" y1="29.21" x2="64.897" y2="-29.21" width="0.127" layer="51"/>
+<wire x1="64.897" y1="-29.21" x2="-64.897" y2="-29.21" width="0.127" layer="51"/>
+<text x="-35.687" y="-23.495" size="1.27" layer="21" rot="R90">J1</text>
+<text x="-35.687" y="-20.955" size="1.27" layer="21" rot="R90">J3</text>
+<text x="-35.687" y="22.225" size="1.27" layer="21" rot="R90">J2</text>
+<text x="-35.687" y="19.685" size="1.27" layer="21" rot="R90">J4</text>
+<text x="28.448" y="22.225" size="1.27" layer="21" rot="R90">J6</text>
+<text x="28.448" y="19.685" size="1.27" layer="21" rot="R90">J8</text>
+<text x="28.448" y="-20.955" size="1.27" layer="21" rot="R90">J7</text>
+<text x="28.448" y="-23.495" size="1.27" layer="21" rot="R90">J5</text>
+<wire x1="-64.897" y1="29.21" x2="64.897" y2="29.21" width="0.127" layer="21"/>
+<wire x1="64.897" y1="29.21" x2="64.897" y2="-29.21" width="0.127" layer="21"/>
+<wire x1="64.897" y1="-29.21" x2="-64.897" y2="-29.21" width="0.127" layer="21"/>
+<wire x1="-64.897" y1="-29.21" x2="-64.897" y2="29.21" width="0.127" layer="21"/>
+<wire x1="-65.147" y1="29.46" x2="65.147" y2="29.46" width="0.05" layer="39"/>
+<wire x1="65.147" y1="29.46" x2="65.147" y2="-29.46" width="0.05" layer="39"/>
+<wire x1="65.147" y1="-29.46" x2="-65.147" y2="-29.46" width="0.05" layer="39"/>
+<wire x1="-65.147" y1="-29.46" x2="-65.147" y2="29.46" width="0.05" layer="39"/>
+<text x="-65.147" y="29.84" size="1.27" layer="25">&gt;NAME</text>
+<text x="-65.147" y="-31.2" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-7.747" y="-17.78" size="1.27" layer="21">J21</text>
+<text x="61.578" y="19.305" size="1.27" layer="21">J14</text>
+<text x="57.178" y="24.305" size="1.27" layer="21">J10</text>
+<text x="61.628" y="3.905" size="1.27" layer="21">J15</text>
+<text x="61.628" y="-11.335" size="1.27" layer="21">J12</text>
+<text x="56.928" y="-23.97" size="1.27" layer="21" rot="R90">J16</text>
+<pad name="J1_1" x="-33.147" y="-22.86" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="J1_2" x="-30.607" y="-22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J1_3" x="-28.067" y="-22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J1_4" x="-25.527" y="-22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J1_5" x="-22.987" y="-22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J1_6" x="-20.447" y="-22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J1_7" x="-17.907" y="-22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J1_8" x="-15.367" y="-22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J1_9" x="-12.827" y="-22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J1_10" x="-10.287" y="-22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J3_1" x="-33.147" y="-20.32" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="J3_2" x="-30.607" y="-20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J3_3" x="-28.067" y="-20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J3_4" x="-25.527" y="-20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J3_5" x="-22.987" y="-20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J3_6" x="-20.447" y="-20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J3_7" x="-17.907" y="-20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J3_8" x="-15.367" y="-20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J3_9" x="-12.827" y="-20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J3_10" x="-10.287" y="-20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J5_1" x="30.353" y="-22.86" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="J5_2" x="32.893" y="-22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J7_1" x="30.353" y="-20.32" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="J7_2" x="32.893" y="-20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J4_10" x="-33.147" y="20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J4_9" x="-30.607" y="20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J2_10" x="-33.147" y="22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J2_9" x="-30.607" y="22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J8_10" x="30.353" y="20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J8_9" x="32.893" y="20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J6_10" x="30.353" y="22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J6_9" x="32.893" y="22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J4_8" x="-28.067" y="20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J2_8" x="-28.067" y="22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J4_7" x="-25.527" y="20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J2_7" x="-25.527" y="22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J4_6" x="-22.987" y="20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J2_6" x="-22.987" y="22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J4_5" x="-20.447" y="20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J2_5" x="-20.447" y="22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J4_4" x="-17.907" y="20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J2_4" x="-17.907" y="22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J4_3" x="-15.367" y="20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J2_3" x="-15.367" y="22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J4_2" x="-12.827" y="20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J2_2" x="-12.827" y="22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J4_1" x="-10.287" y="20.32" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="J2_1" x="-10.287" y="22.86" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="J5_3" x="35.433" y="-22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J7_3" x="35.433" y="-20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J8_8" x="35.433" y="20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J6_8" x="35.433" y="22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J5_4" x="37.973" y="-22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J7_4" x="37.973" y="-20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J8_7" x="37.973" y="20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J6_7" x="37.973" y="22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J5_5" x="40.513" y="-22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J7_5" x="40.513" y="-20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J8_6" x="40.513" y="20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J6_6" x="40.513" y="22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J5_6" x="43.053" y="-22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J7_6" x="43.053" y="-20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J8_5" x="43.053" y="20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J6_5" x="43.053" y="22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J5_7" x="45.593" y="-22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J7_7" x="45.593" y="-20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J8_4" x="45.593" y="20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J6_4" x="45.593" y="22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J5_8" x="48.133" y="-22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J7_8" x="48.133" y="-20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J8_3" x="48.133" y="20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J6_3" x="48.133" y="22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J5_9" x="50.673" y="-22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J7_9" x="50.673" y="-20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J8_2" x="50.673" y="20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J6_2" x="50.673" y="22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J5_10" x="53.213" y="-22.86" drill="1.016" diameter="1.8796"/>
+<pad name="J7_10" x="53.213" y="-20.32" drill="1.016" diameter="1.8796"/>
+<pad name="J8_1" x="53.213" y="20.32" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="J6_1" x="53.213" y="22.86" drill="1.016" diameter="1.8796" shape="square"/>
+<hole x="-62.357" y="26.67" drill="3.175"/>
+<hole x="62.103" y="26.67" drill="3.175"/>
+<hole x="-62.357" y="-26.67" drill="3.175"/>
+<hole x="62.103" y="-26.67" drill="3.175"/>
+<pad name="J16_2" x="60.833" y="-22.86" drill="1.016"/>
+<pad name="J16_3" x="58.293" y="-22.86" drill="1.016"/>
+<pad name="J16_1" x="63.373" y="-22.86" drill="1.016" shape="square"/>
+<pad name="J14_3" x="63.373" y="12.7" drill="1.016"/>
+<pad name="J14_1" x="63.373" y="17.78" drill="1.016" shape="square"/>
+<pad name="J14_2" x="63.373" y="15.24" drill="1.016"/>
+<pad name="J14_4" x="63.373" y="10.16" drill="1.016"/>
+<pad name="J14_5" x="63.373" y="7.62" drill="1.016"/>
+<pad name="J15_3" x="63.373" y="-2.54" drill="1.016"/>
+<pad name="J15_1" x="63.373" y="2.54" drill="1.016" shape="square"/>
+<pad name="J15_2" x="63.373" y="0" drill="1.016"/>
+<pad name="J15_4" x="63.373" y="-5.08" drill="1.016"/>
+<pad name="J15_5" x="63.373" y="-7.62" drill="1.016"/>
+<pad name="J10_1" x="63.373" y="22.86" drill="1.016" shape="square"/>
+<pad name="J10_2" x="60.833" y="22.86" drill="1.016"/>
+<pad name="J10_3" x="58.293" y="22.86" drill="1.016"/>
+<pad name="J21_4" x="-4.263" y="-22.626" drill="1" diameter="1.5"/>
+<pad name="J21_1" x="-6.803" y="-20.086" drill="1" diameter="1.5" shape="square"/>
+<pad name="J21_2" x="-6.803" y="-22.626" drill="1" diameter="1.5"/>
+<pad name="J21_3" x="-4.263" y="-20.086" drill="1" diameter="1.5"/>
+<pad name="J21_5" x="-1.723" y="-20.086" drill="1" diameter="1.5"/>
+<pad name="J21_6" x="-1.723" y="-22.626" drill="1" diameter="1.5"/>
+<pad name="J21_7" x="0.817" y="-20.086" drill="1" diameter="1.5"/>
+<pad name="J21_8" x="0.817" y="-22.626" drill="1" diameter="1.5"/>
+<pad name="J12_1" x="63.373" y="-12.7" drill="1.016" shape="square"/>
+<pad name="J12_2" x="63.373" y="-15.24" drill="1.016"/>
+<pad name="J12_3" x="63.373" y="-17.78" drill="1.016"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LAUNCHXL-F28379D_J1">
+<text x="-12.2428" y="15.9258" size="1.27" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-17.272" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-12.7" y1="15.24" x2="12.7" y2="15.24" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="12.7" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="-12.7" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="15.24" width="0.1524" layer="94"/>
+<pin name="GPIO32" x="-17.78" y="10.16" length="middle"/>
+<pin name="GPIO19/SCIRXDB" x="-17.78" y="7.62" length="middle"/>
+<pin name="GPIO18/SCITXDB" x="-17.78" y="5.08" length="middle"/>
+<pin name="GPIO67" x="-17.78" y="2.54" length="middle"/>
+<pin name="GPIO111" x="-17.78" y="0" length="middle"/>
+<pin name="GPIO60/SPICLKA" x="-17.78" y="-2.54" length="middle"/>
+<pin name="GPIO22" x="-17.78" y="-5.08" length="middle"/>
+<pin name="GPIO105/I2CSCLA" x="-17.78" y="-7.62" length="middle"/>
+<pin name="GPIO104/I2CSDAA" x="-17.78" y="-10.16" length="middle"/>
+<pin name="3.3V_J1" x="-17.78" y="12.7" length="middle" direction="pwr"/>
+</symbol>
+<symbol name="LAUNCHXL-F28379D_J2">
+<text x="-12.2428" y="15.9258" size="1.27" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-14.732" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-12.7" y1="15.24" x2="12.7" y2="15.24" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="12.7" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="15.24" width="0.1524" layer="94"/>
+<pin name="GPIO61/SPIACS" x="-17.78" y="10.16" length="middle"/>
+<pin name="GPIO123/SD1CLK1" x="-17.78" y="7.62" length="middle"/>
+<pin name="GPIO122/SD1D1" x="-17.78" y="5.08" length="middle"/>
+<pin name="!RESET_J2" x="-17.78" y="2.54" length="middle"/>
+<pin name="GPIO58/SPIAMOSI" x="-17.78" y="0" length="middle"/>
+<pin name="GPIO59/SPIAMISO" x="-17.78" y="-2.54" length="middle"/>
+<pin name="GPIO29/OPXBAR6" x="-17.78" y="-10.16" length="middle"/>
+<pin name="GPIO124/SD1D2" x="-17.78" y="-5.08" length="middle"/>
+<pin name="GPIO125/SD1CLK2" x="-17.78" y="-7.62" length="middle"/>
+<pin name="GND_J2" x="-17.78" y="12.7" length="middle" direction="pwr"/>
+</symbol>
+<symbol name="LAUNCHXL-F28379D_J3">
+<text x="-14.7828" y="15.9258" size="1.27" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-17.272" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-15.24" y1="15.24" x2="15.24" y2="15.24" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="15.24" x2="15.24" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-15.24" x2="-15.24" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-15.24" x2="-15.24" y2="15.24" width="0.1524" layer="94"/>
+<pin name="GND_J3" x="-20.32" y="10.16" length="middle" direction="pwr"/>
+<pin name="ADCIN14/ANALOGIN" x="-20.32" y="7.62" length="middle"/>
+<pin name="ADCINB3/ANALOGIN" x="-20.32" y="2.54" length="middle"/>
+<pin name="ADCINA3/ANALOGIN" x="-20.32" y="0" length="middle"/>
+<pin name="ADCINC2/ANALOGIN" x="-20.32" y="-2.54" length="middle"/>
+<pin name="ADCINB2/ANALOGIN" x="-20.32" y="-5.08" length="middle"/>
+<pin name="ADCINC3/ANALOGIN" x="-20.32" y="5.08" length="middle"/>
+<pin name="ADCINA2/ANALOGIN" x="-20.32" y="-7.62" length="middle"/>
+<pin name="ADCINA0/ANALOGIN(DACA)" x="-20.32" y="-10.16" length="middle"/>
+<pin name="+5V_J3" x="-20.32" y="12.7" length="middle" direction="pwr"/>
+</symbol>
+<symbol name="LAUNCHXL-F28379D_J4">
+<text x="-14.7828" y="15.9258" size="1.27" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-17.272" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-15.24" y1="15.24" x2="15.24" y2="15.24" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="15.24" x2="15.24" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-15.24" x2="-15.24" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-15.24" x2="-15.24" y2="15.24" width="0.1524" layer="94"/>
+<pin name="GPIO1/PWMOUT1B" x="-20.32" y="10.16" length="middle"/>
+<pin name="GPIO3/PWMOUT2B" x="-20.32" y="5.08" length="middle"/>
+<pin name="GPIO4/PWMOUT3A" x="-20.32" y="2.54" length="middle"/>
+<pin name="GPIO5/PWMOUT3B" x="-20.32" y="0" length="middle"/>
+<pin name="GPIO24/OPXBAR1" x="-20.32" y="-2.54" length="middle"/>
+<pin name="GPIO16/OPXBAR7" x="-20.32" y="-5.08" length="middle"/>
+<pin name="GPIO2//PWMOUT2A" x="-20.32" y="7.62" length="middle"/>
+<pin name="PWM/BASED/DAC1" x="-20.32" y="-7.62" length="middle"/>
+<pin name="PWM/BASED/DAC2" x="-20.32" y="-10.16" length="middle"/>
+<pin name="GPIO0/PWMOUT1A" x="-20.32" y="12.7" length="middle"/>
+</symbol>
+<symbol name="LAUNCHXL-F28379D_J5">
+<text x="-14.7828" y="15.9258" size="1.27" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-17.272" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-15.24" y1="15.24" x2="15.24" y2="15.24" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="15.24" x2="15.24" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-15.24" x2="-15.24" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-15.24" x2="-15.24" y2="15.24" width="0.1524" layer="94"/>
+<pin name="GPIO95" x="-20.32" y="10.16" length="middle"/>
+<pin name="GPIO56/SCICIX" x="-20.32" y="5.08" length="middle"/>
+<pin name="GPIO97" x="-20.32" y="2.54" length="middle"/>
+<pin name="GPIO94" x="-20.32" y="0" length="middle"/>
+<pin name="GPIO65/SPIBCLK" x="-20.32" y="-2.54" length="middle"/>
+<pin name="GPIO52" x="-20.32" y="-5.08" length="middle"/>
+<pin name="GPIO139/SCICRX" x="-20.32" y="7.62" length="middle"/>
+<pin name="GPIO41/I2CSCLB/J5" x="-20.32" y="-7.62" length="middle"/>
+<pin name="GPIO40/I2CSDAB/J5" x="-20.32" y="-10.16" length="middle"/>
+<pin name="3.3V_J5" x="-20.32" y="12.7" length="middle" direction="pwr"/>
+</symbol>
+<symbol name="LAUNCHXL-F28379D_J6">
+<text x="-14.7828" y="15.9258" size="1.27" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-17.272" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-15.24" y1="15.24" x2="15.24" y2="15.24" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="15.24" x2="15.24" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-15.24" x2="-15.24" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-15.24" x2="-15.24" y2="15.24" width="0.1524" layer="94"/>
+<pin name="GPIO66/SPIBCS" x="-20.32" y="10.16" length="middle"/>
+<pin name="GPIO130/SD2D1" x="-20.32" y="5.08" length="middle"/>
+<pin name="!RESET_J6" x="-20.32" y="2.54" length="middle"/>
+<pin name="GPIO63/SPIBMOSI" x="-20.32" y="0" length="middle"/>
+<pin name="GPIO64/SPIBMISO" x="-20.32" y="-2.54" length="middle"/>
+<pin name="GPIO26/SD2D2" x="-20.32" y="-5.08" length="middle"/>
+<pin name="GPIO131/SD2CLK1" x="-20.32" y="7.62" length="middle"/>
+<pin name="GPIO27/SD2CLK2" x="-20.32" y="-7.62" length="middle"/>
+<pin name="GPIO25/OPXBAR2" x="-20.32" y="-10.16" length="middle"/>
+<pin name="GND_J6" x="-20.32" y="12.7" length="middle" direction="pwr"/>
+</symbol>
+<symbol name="LAUNCHXL-F28379D_J7">
+<text x="-14.7828" y="15.9258" size="1.27" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-17.272" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-15.24" y1="15.24" x2="15.24" y2="15.24" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="15.24" x2="15.24" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-15.24" x2="-15.24" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-15.24" x2="-15.24" y2="15.24" width="0.1524" layer="94"/>
+<pin name="GND_J7" x="-20.32" y="10.16" length="middle" direction="pwr"/>
+<pin name="ADCINC5/ANALOGIN" x="-20.32" y="5.08" length="middle"/>
+<pin name="ADCINB5/ANALOGIN" x="-20.32" y="2.54" length="middle"/>
+<pin name="ADCINC4/ANALOGIN" x="-20.32" y="-2.54" length="middle"/>
+<pin name="ADCINA5/ANALOGIN" x="-20.32" y="0" length="middle"/>
+<pin name="ADCINB4/ANALOGIN" x="-20.32" y="-5.08" length="middle"/>
+<pin name="ADCIN15/ANALOGIN" x="-20.32" y="7.62" length="middle"/>
+<pin name="ADCINA4/ANALOGIN" x="-20.32" y="-7.62" length="middle"/>
+<pin name="ADCINA1/ANALOGIN(DACB)" x="-20.32" y="-10.16" length="middle"/>
+<pin name="+5V_J7" x="-20.32" y="12.7" length="middle" direction="pwr"/>
+</symbol>
+<symbol name="LAUNCHXL-F28379D_J8">
+<text x="-14.7828" y="15.9258" size="1.27" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-17.272" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-15.24" y1="15.24" x2="15.24" y2="15.24" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="15.24" x2="15.24" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-15.24" x2="-15.24" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-15.24" x2="-15.24" y2="15.24" width="0.1524" layer="94"/>
+<pin name="GPIO7/PWMOUT4B" x="-20.32" y="10.16" length="middle"/>
+<pin name="GPIO9/PWMOUT5B" x="-20.32" y="5.08" length="middle"/>
+<pin name="GPIO10/PWMOUT6A" x="-20.32" y="2.54" length="middle"/>
+<pin name="GPIO14/OPXBAR3" x="-20.32" y="-2.54" length="middle"/>
+<pin name="GPIO11/PWMOUT6B" x="-20.32" y="0" length="middle"/>
+<pin name="GPIO15/OPXBAR4" x="-20.32" y="-5.08" length="middle"/>
+<pin name="GPIO8/PWMOUT5A" x="-20.32" y="7.62" length="middle"/>
+<pin name="PWM/BASED/DAC3" x="-20.32" y="-7.62" length="middle"/>
+<pin name="PWM/BASED/DAC4" x="-20.32" y="-10.16" length="middle"/>
+<pin name="GPIO6/PWMOUT4A" x="-20.32" y="12.7" length="middle"/>
+</symbol>
+<symbol name="LAUNCHXL-F28379D_J10">
+<text x="-7.1628" y="3.2258" size="1.27" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-7.112" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="2.54" width="0.1524" layer="94"/>
+<pin name="GND_J10" x="-12.7" y="-2.54" length="middle" direction="pwr"/>
+<pin name="+3V_J10" x="-12.7" y="0" length="middle" direction="pwr"/>
+</symbol>
+<symbol name="LAUNCHXL-F28379D_J12">
+<text x="-7.1628" y="5.7658" size="1.27" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-7.112" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.1524" layer="94"/>
+<pin name="CANL" x="-12.7" y="0" length="middle"/>
+<pin name="GND_J12" x="-12.7" y="-2.54" length="middle" direction="pwr"/>
+<pin name="CANH" x="-12.7" y="2.54" length="middle"/>
+</symbol>
+<symbol name="LAUNCHXL-F28379D_J14">
+<text x="-7.1628" y="8.3058" size="1.27" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-9.652" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.1524" layer="94"/>
+<pin name="EQEP1B" x="-12.7" y="2.54" length="middle"/>
+<pin name="+5V_J14" x="-12.7" y="-2.54" length="middle" direction="pwr"/>
+<pin name="GND_J14" x="-12.7" y="-5.08" length="middle" direction="pwr"/>
+<pin name="EQEP1I" x="-12.7" y="0" length="middle"/>
+<pin name="EQEP1A" x="-12.7" y="5.08" length="middle"/>
+</symbol>
+<symbol name="LAUNCHXL-F28379D_J15">
+<text x="-7.1628" y="8.3058" size="1.27" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-9.652" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.1524" layer="94"/>
+<pin name="EQEP2B" x="-12.7" y="2.54" length="middle"/>
+<pin name="+5V_J15" x="-12.7" y="-2.54" length="middle" direction="pwr"/>
+<pin name="GND_J15" x="-12.7" y="-5.08" length="middle" direction="pwr"/>
+<pin name="EQEP2I" x="-12.7" y="0" length="middle"/>
+<pin name="EQEP2A" x="-12.7" y="5.08" length="middle"/>
+</symbol>
+<symbol name="LAUNCHXL-F28379D_J21">
+<text x="-14.7828" y="5.7658" size="1.27" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-9.652" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-15.24" y1="5.08" x2="15.24" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="5.08" x2="15.24" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-7.62" x2="-15.24" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-7.62" x2="-15.24" y2="5.08" width="0.1524" layer="94"/>
+<pin name="ADCIND0" x="-20.32" y="2.54" length="middle" direction="in"/>
+<pin name="ADCIND1" x="-20.32" y="0" length="middle" direction="in"/>
+<pin name="ADCIND2" x="-20.32" y="-2.54" length="middle" direction="in"/>
+<pin name="ADCIND3" x="-20.32" y="-5.08" length="middle" direction="in"/>
+<pin name="TP21/GND" x="20.32" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="TP22/GND" x="20.32" y="0" length="middle" direction="pwr" rot="R180"/>
+<pin name="TP23/GND" x="20.32" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="TP24/GND" x="20.32" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+<symbol name="LAUNCHXL-F28379D_J16">
+<text x="-7.1628" y="5.7658" size="1.27" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-4.572" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="-7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="5.08" width="0.1524" layer="94"/>
+<pin name="GND_J16" x="-12.7" y="0" length="middle" direction="pwr"/>
+<pin name="+5V_J16" x="-12.7" y="2.54" length="middle" direction="pwr"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LAUNCHXL-F28379D" prefix="U">
+<description> &lt;a href="https://pricing.snapeda.com/parts/LAUNCHXL-F28379D/Texas%20Instruments/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="LAUNCHXL-F28379D_J1" x="0" y="0" swaplevel="1"/>
+<gate name="G$2" symbol="LAUNCHXL-F28379D_J2" x="35.56" y="0" swaplevel="2"/>
+<gate name="G$3" symbol="LAUNCHXL-F28379D_J3" x="73.66" y="0" swaplevel="3"/>
+<gate name="G$4" symbol="LAUNCHXL-F28379D_J4" x="116.84" y="0" swaplevel="4"/>
+<gate name="G$5" symbol="LAUNCHXL-F28379D_J5" x="0" y="-43.18" swaplevel="5"/>
+<gate name="G$6" symbol="LAUNCHXL-F28379D_J6" x="40.64" y="-43.18" swaplevel="6"/>
+<gate name="G$7" symbol="LAUNCHXL-F28379D_J7" x="81.28" y="-43.18" swaplevel="7"/>
+<gate name="G$8" symbol="LAUNCHXL-F28379D_J8" x="121.92" y="-43.18" swaplevel="8"/>
+<gate name="G$10" symbol="LAUNCHXL-F28379D_J10" x="5.08" y="-71.12" swaplevel="9"/>
+<gate name="G$12" symbol="LAUNCHXL-F28379D_J12" x="38.1" y="-71.12" swaplevel="10"/>
+<gate name="G$9" symbol="LAUNCHXL-F28379D_J14" x="71.12" y="-71.12" swaplevel="11"/>
+<gate name="G$11" symbol="LAUNCHXL-F28379D_J15" x="101.6" y="-71.12" swaplevel="12"/>
+<gate name="G$13" symbol="LAUNCHXL-F28379D_J21" x="134.62" y="-71.12" swaplevel="13"/>
+<gate name="G$14" symbol="LAUNCHXL-F28379D_J16" x="5.08" y="-86.36" swaplevel="14"/>
+</gates>
+<devices>
+<device name="" package="MOD_LAUNCHXL-F28379D">
+<connects>
+<connect gate="G$1" pin="3.3V_J1" pad="J1_1"/>
+<connect gate="G$1" pin="GPIO104/I2CSDAA" pad="J1_10"/>
+<connect gate="G$1" pin="GPIO105/I2CSCLA" pad="J1_9"/>
+<connect gate="G$1" pin="GPIO111" pad="J1_6"/>
+<connect gate="G$1" pin="GPIO18/SCITXDB" pad="J1_4"/>
+<connect gate="G$1" pin="GPIO19/SCIRXDB" pad="J1_3"/>
+<connect gate="G$1" pin="GPIO22" pad="J1_8"/>
+<connect gate="G$1" pin="GPIO32" pad="J1_2"/>
+<connect gate="G$1" pin="GPIO60/SPICLKA" pad="J1_7"/>
+<connect gate="G$1" pin="GPIO67" pad="J1_5"/>
+<connect gate="G$10" pin="+3V_J10" pad="J10_1"/>
+<connect gate="G$10" pin="GND_J10" pad="J10_2 J10_3"/>
+<connect gate="G$11" pin="+5V_J15" pad="J15_4"/>
+<connect gate="G$11" pin="EQEP2A" pad="J15_1"/>
+<connect gate="G$11" pin="EQEP2B" pad="J15_2"/>
+<connect gate="G$11" pin="EQEP2I" pad="J15_3"/>
+<connect gate="G$11" pin="GND_J15" pad="J15_5"/>
+<connect gate="G$12" pin="CANH" pad="J12_1"/>
+<connect gate="G$12" pin="CANL" pad="J12_2"/>
+<connect gate="G$12" pin="GND_J12" pad="J12_3"/>
+<connect gate="G$13" pin="ADCIND0" pad="J21_1"/>
+<connect gate="G$13" pin="ADCIND1" pad="J21_3"/>
+<connect gate="G$13" pin="ADCIND2" pad="J21_5"/>
+<connect gate="G$13" pin="ADCIND3" pad="J21_7"/>
+<connect gate="G$13" pin="TP21/GND" pad="J21_2"/>
+<connect gate="G$13" pin="TP22/GND" pad="J21_4"/>
+<connect gate="G$13" pin="TP23/GND" pad="J21_6"/>
+<connect gate="G$13" pin="TP24/GND" pad="J21_8"/>
+<connect gate="G$14" pin="+5V_J16" pad="J16_1"/>
+<connect gate="G$14" pin="GND_J16" pad="J16_2 J16_3"/>
+<connect gate="G$2" pin="!RESET_J2" pad="J2_6"/>
+<connect gate="G$2" pin="GND_J2" pad="J2_10"/>
+<connect gate="G$2" pin="GPIO122/SD1D1" pad="J2_7"/>
+<connect gate="G$2" pin="GPIO123/SD1CLK1" pad="J2_8"/>
+<connect gate="G$2" pin="GPIO124/SD1D2" pad="J2_3"/>
+<connect gate="G$2" pin="GPIO125/SD1CLK2" pad="J2_2"/>
+<connect gate="G$2" pin="GPIO29/OPXBAR6" pad="J2_1"/>
+<connect gate="G$2" pin="GPIO58/SPIAMOSI" pad="J2_5"/>
+<connect gate="G$2" pin="GPIO59/SPIAMISO" pad="J2_4"/>
+<connect gate="G$2" pin="GPIO61/SPIACS" pad="J2_9"/>
+<connect gate="G$3" pin="+5V_J3" pad="J3_1"/>
+<connect gate="G$3" pin="ADCIN14/ANALOGIN" pad="J3_3"/>
+<connect gate="G$3" pin="ADCINA0/ANALOGIN(DACA)" pad="J3_10"/>
+<connect gate="G$3" pin="ADCINA2/ANALOGIN" pad="J3_9"/>
+<connect gate="G$3" pin="ADCINA3/ANALOGIN" pad="J3_6"/>
+<connect gate="G$3" pin="ADCINB2/ANALOGIN" pad="J3_8"/>
+<connect gate="G$3" pin="ADCINB3/ANALOGIN" pad="J3_5"/>
+<connect gate="G$3" pin="ADCINC2/ANALOGIN" pad="J3_7"/>
+<connect gate="G$3" pin="ADCINC3/ANALOGIN" pad="J3_4"/>
+<connect gate="G$3" pin="GND_J3" pad="J3_2"/>
+<connect gate="G$4" pin="GPIO0/PWMOUT1A" pad="J4_10"/>
+<connect gate="G$4" pin="GPIO1/PWMOUT1B" pad="J4_9"/>
+<connect gate="G$4" pin="GPIO16/OPXBAR7" pad="J4_3"/>
+<connect gate="G$4" pin="GPIO2//PWMOUT2A" pad="J4_8"/>
+<connect gate="G$4" pin="GPIO24/OPXBAR1" pad="J4_4"/>
+<connect gate="G$4" pin="GPIO3/PWMOUT2B" pad="J4_7"/>
+<connect gate="G$4" pin="GPIO4/PWMOUT3A" pad="J4_6"/>
+<connect gate="G$4" pin="GPIO5/PWMOUT3B" pad="J4_5"/>
+<connect gate="G$4" pin="PWM/BASED/DAC1" pad="J4_2"/>
+<connect gate="G$4" pin="PWM/BASED/DAC2" pad="J4_1"/>
+<connect gate="G$5" pin="3.3V_J5" pad="J5_1"/>
+<connect gate="G$5" pin="GPIO139/SCICRX" pad="J5_3"/>
+<connect gate="G$5" pin="GPIO40/I2CSDAB/J5" pad="J5_10"/>
+<connect gate="G$5" pin="GPIO41/I2CSCLB/J5" pad="J5_9"/>
+<connect gate="G$5" pin="GPIO52" pad="J5_8"/>
+<connect gate="G$5" pin="GPIO56/SCICIX" pad="J5_4"/>
+<connect gate="G$5" pin="GPIO65/SPIBCLK" pad="J5_7"/>
+<connect gate="G$5" pin="GPIO94" pad="J5_6"/>
+<connect gate="G$5" pin="GPIO95" pad="J5_2"/>
+<connect gate="G$5" pin="GPIO97" pad="J5_5"/>
+<connect gate="G$6" pin="!RESET_J6" pad="J6_6"/>
+<connect gate="G$6" pin="GND_J6" pad="J6_10"/>
+<connect gate="G$6" pin="GPIO130/SD2D1" pad="J6_7"/>
+<connect gate="G$6" pin="GPIO131/SD2CLK1" pad="J6_8"/>
+<connect gate="G$6" pin="GPIO25/OPXBAR2" pad="J6_1"/>
+<connect gate="G$6" pin="GPIO26/SD2D2" pad="J6_3"/>
+<connect gate="G$6" pin="GPIO27/SD2CLK2" pad="J6_2"/>
+<connect gate="G$6" pin="GPIO63/SPIBMOSI" pad="J6_5"/>
+<connect gate="G$6" pin="GPIO64/SPIBMISO" pad="J6_4"/>
+<connect gate="G$6" pin="GPIO66/SPIBCS" pad="J6_9"/>
+<connect gate="G$7" pin="+5V_J7" pad="J7_1"/>
+<connect gate="G$7" pin="ADCIN15/ANALOGIN" pad="J7_3"/>
+<connect gate="G$7" pin="ADCINA1/ANALOGIN(DACB)" pad="J7_10"/>
+<connect gate="G$7" pin="ADCINA4/ANALOGIN" pad="J7_9"/>
+<connect gate="G$7" pin="ADCINA5/ANALOGIN" pad="J7_6"/>
+<connect gate="G$7" pin="ADCINB4/ANALOGIN" pad="J7_8"/>
+<connect gate="G$7" pin="ADCINB5/ANALOGIN" pad="J7_5"/>
+<connect gate="G$7" pin="ADCINC4/ANALOGIN" pad="J7_7"/>
+<connect gate="G$7" pin="ADCINC5/ANALOGIN" pad="J7_4"/>
+<connect gate="G$7" pin="GND_J7" pad="J7_2"/>
+<connect gate="G$8" pin="GPIO10/PWMOUT6A" pad="J8_6"/>
+<connect gate="G$8" pin="GPIO11/PWMOUT6B" pad="J8_5"/>
+<connect gate="G$8" pin="GPIO14/OPXBAR3" pad="J8_4"/>
+<connect gate="G$8" pin="GPIO15/OPXBAR4" pad="J8_3"/>
+<connect gate="G$8" pin="GPIO6/PWMOUT4A" pad="J8_10"/>
+<connect gate="G$8" pin="GPIO7/PWMOUT4B" pad="J8_9"/>
+<connect gate="G$8" pin="GPIO8/PWMOUT5A" pad="J8_8"/>
+<connect gate="G$8" pin="GPIO9/PWMOUT5B" pad="J8_7"/>
+<connect gate="G$8" pin="PWM/BASED/DAC3" pad="J8_2"/>
+<connect gate="G$8" pin="PWM/BASED/DAC4" pad="J8_1"/>
+<connect gate="G$9" pin="+5V_J14" pad="J14_4"/>
+<connect gate="G$9" pin="EQEP1A" pad="J14_1"/>
+<connect gate="G$9" pin="EQEP1B" pad="J14_2"/>
+<connect gate="G$9" pin="EQEP1I" pad="J14_3"/>
+<connect gate="G$9" pin="GND_J14" pad="J14_5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Description" value="
+C2000 Delfino MCU F28379D LaunchPad™ development kit
+"/>
+<attribute name="MF" value="Texas Instruments"/>
+<attribute name="Purchase-URL" value="https://pricing.snapeda.com/search/part/LAUNCHXL-F28379D/?ref=eda"/>
+<attribute name="Availability" value="In Stock"/>
+<attribute name="MP" value="LAUNCHXL-F28379D"/>
+<attribute name="Price" value="None"/>
+<attribute name="Package" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
